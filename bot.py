@@ -57,7 +57,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         resize_keyboard=True,
     )
     welcome_msg = (
-        "*Welcome To @Ayushhrobot*\n\n"
+        "*Welcome To @ayushhrobot*\n\n"
         f"*Your ID :* `{update.message.from_user.id}`\n\n"
         "Send me a Telegram username or number to look up.\n"
         "Example: @username or 1234567890\n\n"
